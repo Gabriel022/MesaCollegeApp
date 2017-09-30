@@ -13,7 +13,7 @@ public class MesaCollegeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_mesa_college);
 
         WebView mesaView = (WebView) findViewById(R.id.webViewMesa);
-        mesaView.setWebViewClient(new WebViewClient());
+        mesaView.setWebViewClient(new WebViewClient()); //stay within the app.
 
         mesaView.loadUrl("http://www.sdmesa.edu");
     }
