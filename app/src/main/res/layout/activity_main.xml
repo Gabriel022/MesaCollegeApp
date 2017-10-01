@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -22,16 +23,20 @@
             android:id="@+id/mesaCollegeText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:background="@color/primary_dark_material_light_1"
             android:text="@string/mesaTextView"
-            android:textSize="25sp"
-            android:layout_weight="0.19" />
+            android:textColor="@color/colorAccent"
+            android:textColorLink="@color/colorAccent"
+            android:textSize="35sp" />
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.48"
+            android:layout_weight="0.64"
             android:adjustViewBounds="true"
+            android:background="@color/primary_dark_material_light_1"
             app:srcCompat="@drawable/stressedstudent2"
             tools:adjustViewBounds="true" />
 
@@ -39,7 +44,8 @@
             android:id="@+id/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.03"
+            android:layout_weight="0.10"
+            android:background="@color/colorAccent"
             android:text="@string/webSiteButtonText"
             tools:layout_editor_absoluteX="229dp"
             tools:layout_editor_absoluteY="40dp" />
@@ -48,7 +54,8 @@
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.03"
+            android:layout_weight="0.12"
+            android:background="@android:color/holo_blue_light"
             android:text="@string/callButtonText"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="122dp" />
