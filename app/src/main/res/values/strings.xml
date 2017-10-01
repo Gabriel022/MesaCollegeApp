@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MesaCollegeAppTest</string>
+    <string name="app_name">Mesa  College</string>
     <string name="mesaTextView">"          Mesa College:        "</string>
     <string name="webSiteButtonText">WebSite</string>
     <string name="callButtonText">Call Now!</string>
